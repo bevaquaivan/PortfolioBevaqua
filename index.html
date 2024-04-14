@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<!-- MENU ENCABEZADO -->
+<div class="contenedor-header">
+    <header>
+        <div class="logo">
+            <a href="#">Iván</a>
+        </div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+<!--                 <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li> -->
+            </ul>
+        </nav>
+        <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+    </header>
+</div>
+
+<!-- INICIO -->
+
+<section id="inicio" class="inicio">
+    <div class="contenido-banner">
+        <div class="contenedor-img">
+            <img src="./assets/Perfil.png" alt="">
+        </div>
+        <h1>IVÁN BEVAQUA</h1>
+        <h2>UX Researcher | FrontEnd </h2>
+        <div class="redes">
+            <a href="https://www.linkedin.com/in/bevaquaivan/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</section>
+
+<!-- SOBRE MI -->
+
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre mí</h2>
+        <p><span>¡Hola! soy Iván Bevaqua.</span> Tengo 28 años y vivo en Ushuaia, Argentina. Cuento con una diplomatura en UX y experiencia en el campo de análisis funcional. Además de cursos realizados sobre desarrollo web.
+        </p>
+
+<div class="fila">
+    <!-- DATOS PERSONALES -->
+    <div class="col">
+        <h3>Datos personales</h3>
+        <ul>
+            <li>
+                <strong>Cumpleaños</strong>
+                05-04-1996
+            </li>
+            <li>
+                <strong>Email</strong>
+                bevaquaivan@gmail.com
+            </li>
+            <li>
+                <strong>Linkedin</strong>
+                https://www.linkedin.com/in/bevaquaivan
+            </li>
+            <li>
+                <strong>Cargo</strong>
+                <span>Open to work</span>
+                
+            </li>
+        </ul>
+
+
+    </div>
+    <!-- INTERESES -->
+    <div class="col">
+        <h3>Intereses</h3>
+        <div class="contenedor-intereses">
+            <div class="interes">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JUEGOS</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-headphones"></i>
+                <span>MÚSICA</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-plane"></i>
+                <span>VIAJAR</span>
+            </div>
+            <div class="interes">
+                <i class="fa-solid fa-palette"></i>
+                <span>PINTAR</span>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<button>
+    <a href="https://drive.google.com/file/d/1rtS1gBV4NtIQsbrPVboM9hoBLU7W7P9_/view?usp=drive_link" target="_blank">Descargar CV <i class="fa-solid fa-download"></i></a>
+    <span class="overlay"></span>
+</button>
+
+    </div>
+</section>
+
+<!-- SKILLS -->
+
+<section class="skills" id="skills">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+
+            <!-- Skills técnicas -->
+            
+            <div class="col">
+                <h3>Technical Skills</h3>
+                <div class="skill">
+                    <span>Research</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Javascript</span>
+                    <div class="barra-skill">
+                        <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!-- Skills Profesionales -->
+
+        <div class="col">
+            <h3>Professional Skills</h3>
+            <div class="skill">
+                <span>Prototipado</span>
+                <div class="barra-skill">
+                    <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Customer Experience</span>
+                <div class="barra-skill">
+                    <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Trabajo en equipo</span>
+                <div class="barra-skill">
+                    <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="skill">
+                <span>Proyect Managment</span>
+                <div class="barra-skill">
+                    <div class="progreso" style="width: 0%; animation: 2s research forwards;">
+                        <span>100%</span>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+    </div>
+</section>
+
+<!-- CURRICULUM -->
+
+<section id="curriculum" class="curriculum">
+    <div class="contenido-seccion">
+        <h2>Curriculum</h2>
+        <div class="fila">
+            <div class="col izquierda">
+                <h3>Educación</h3>
+                <div class="item izq">
+                    <h4>Diplomatura en UX</h4>
+                    <span class="casa">Centro de formación profesional de Tierra del Fuego</span>
+                    <span class="fecha">2022</span>
+                    <p>Diplumatura en la que estudié, preparé y concreté junto a mis compañeros de equipo, un proyecto de una aplicación enfocada en el UX.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Programador Full Stack Web</h4>
+                    <span class="casa">Argentina Programa</span>
+                    <span class="fecha">2021-2023</span>
+                    <p>Curso de programación dividido en dos etapas, ambas superadas y completadas. El proyecto final fue la creación de un portfolio web con FrontEnd y Backend.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+                <div class="item izq">
+                    <h4>Curso de Desarrollador Web con REACT JS</h4>
+                    <span class="casa">UTN</span>
+                    <span class="fecha">2023</span>
+                    <p>Curso dictado por la UTN y Argentina programa, con certificación.</p>
+                    <div class="conectori">
+                        <div class="circuloi"></div>
+                    </div>
+                </div>
+            </div>            
+
+            <div class="col derecha">
+                <h3>Experiencia de Trabajo</h3>
+                <div class="item der">
+                    <h4>Analista Funcional | UX | Capacitador</h4>
+                    <span class="casa">Secretaría de gobierno digital de Tierra del fuego</span>
+                    <span class="fecha">2023 - 2024</span>
+                    <p> Me encargaba de la búsqueda de errores y generación de manuales de nuevas versiones en el sistema GEN, similar a SAP. Además, lideraba el equipo de capacitaciones orales para trabajadores de otras áreas en la cual también tomaba requerimientos para próximas actualizaciones.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Proyecto de UX | Aplicación</h4>
+                    <span class="casa">Centro profesional de Tierra del fuego</span>
+                    <span class="fecha">2022</span>
+                    <p>Nuestro equipo tuvo la gran oportunidad de trabajar junto a gente de MACHI, una ONG de salud. Junto a ellos investigamos, diseñamos y testeamos una aplicación orientada a niños con autismo no verbal.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+                <div class="item der">
+                    <h4>Profesor de apoyo primario | Auxiliar pedagógico</h4>
+                    <span class="casa">Ministerio de Educación</span>
+                    <span class="fecha">2021 - 2022</span>
+                    <p>Empecé trabajando como auxiliar en colonias de verano. Tiempo después pude dar clases de apoyo a niños de nivel primario.</p>
+                    <div class="conectord">
+                        <div class="circulod"></div>
+                    </div>
+                </div>
+
+            </div>    
+    </div>
+</section>
+
+<!-- PORTFOLIO -->
+
+<section id="portfolio" class="portfolio">
+    <div class="contenido-seccion">
+        <h2>Portfolio</h2>
+        <div class="galeria">
+            <div class="proyecto">
+                <img src="./assets/Proyecto.png" alt="">
+                <div class="overlay">
+                    <h3>Proyecto de UX para la ONG MACHI</h3>
+                    <p>UX|UI</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="./assets/Proyecto2.png" alt="">
+                <div class="overlay">
+                    <h3>Portfolio Web</h3>
+                    <p>¡Lo estás viendo!</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="./assets/Proyecto3.png" alt="">
+                <div class="overlay">
+                    <h3>Juego de Cartas TCG físico y online</h3>
+                    <p>Proyecto Personal</p>
+                </div>
+            </div>
+
+
+
+
+
+    
+        </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+
+<!-- <section id="contacto" class="contacto">
+    <div class="contenido-seccion">
+        <h2>Contacto</h2>
+        <div class="fila">
+             FORMULARIO
+
+            <div class="col">
+                <input type="text" placeholder="Nombre">
+                <input type="text" placeholder="Email">
+                <input type="text" placeholder="Tema">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                <button>
+                    Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
+                    <span class="overlay"></span>
+                </button>
+
+            </div>
+        </div>
+    </div>
+</section> -->
+
+<!-- Footer -->
+
+<footer>
+    <a href="#inicio" class="arriba">
+        <i class="fa-solid fa-angles-up"></i>
+<!--     </a>
+    <div class="redes">
+        <a href="https://www.linkedin.com/in/bevaquaivan/"><i class="fa-brands fa-linkedin-in"></i></a>
+ -->
+    </div>
+</footer>
+
+<script src="script.js"> </script>
+
+</body>
+</html>
